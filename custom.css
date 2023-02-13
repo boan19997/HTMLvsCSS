@@ -1,0 +1,31 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.banner {
+  height: 500px;
+  padding: 10px;
+  background: url("./banner.jpg") center center no-repeat;
+}
+.banner .about-sign-in {
+  height: 80px;
+  width: 100%;
+  text-align: right;
+}
+.banner .about-sign-in .about,
+.banner .about-sign-in .sign-in {
+  margin-top: 20px;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+}
+.banner .about-sign-in .sign-in {
+  margin-right: 60px;
+  margin-left: 25px;
+  border: 5px solid white;
+  border-radius: 20px;
+}
